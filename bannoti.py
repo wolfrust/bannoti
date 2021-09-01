@@ -1,5 +1,4 @@
-# Amazing! Core functionality is working great, and the notifications look nice now.
-# note : polish interface & file paths
+# Amazing! On to GitHub! 
 
 from sys import exit as die
 from sys import argv
