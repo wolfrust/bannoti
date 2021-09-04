@@ -12,9 +12,9 @@
 
 ```
 
----
 
-You can use Bannoti to recieve notifications for Banano transactions on your computer. ^_^
+✨You can use Bannoti to recieve notifications for Banano transactions on your computer. 
+
 
 ---
 
@@ -24,10 +24,10 @@ You can use Bannoti to recieve notifications for Banano transactions on your com
 
 ### Installation
 
-1. Grab [the latest release](https://github.com/wolfrust/bannoti/releases/latest). The app is Windows & Linux friendly. MacOS users will need to tweak the code. This is an [open issue](f)
+1. Grab [the latest release](https://github.com/wolfrust/bannoti/releases/latest).
 2. Unzip the file you just downloaded
 3. Open a terminal window
-4. Move into the directory in which you unzipped the files
+4. [Move into the directory](https://help.ubuntu.com/community/UsingTheTerminal) in which you placed the files
 5. Run ```bannoti.py --startup``` to add Bannoti to startup
 
 Step 5 is optional but recommended, because otherwise you will have to start Bannoti manually *every time you log on*, which could get annoying.
@@ -61,31 +61,33 @@ $> bannoti.py --help
 
 It's pretty straightforward. You don't have to supply any other arguments, just one of these.
 
+For example : `bannoti.py --add`
+
 
 ---
 
 #### Contribution (4s)
 
-All contributions are welcome. We Monkeys gotta stick together.
+All contributions are welcome.
 
 
 #### Feature Requests & Bug Reporting (4s) 🐞
 
-GitHub provides the [issues tab](https://github.com/wolfrust/bannoti/issues) for this. Please use this.
+GitHub provides the [issues tab](https://github.com/wolfrust/bannoti/issues) for this. 
 
 ---
 
 #### Contact 📱
 
-You can contact me using one of the means listed in my [profile](https://github.com/wolfrust/wolfrust/README.md)
+You can contact me using one of the means listed in my [profile](https://github.com/wolfrust/wolfrust/README.md#reach-me).
 
 ---
 
-#### Tip Me 😘
+#### Tips 😘
 
-I'd really appreciate it. Every bit of potassium counts.
+I'd really appreciate it. Every bit of potassium matters.
 
 Banano : ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf
 Nano : nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt
 
-If you'd like to tip me via some other means, please [contact me](mailto:mateo.xzf@protonmail.ch)
+If you'd like to tip me via some other means, please [contact me](https://github.com/wolfrust/wolfrust/#reach-me).
