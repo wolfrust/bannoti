@@ -24,6 +24,12 @@
 
 ### Installation
 
+Using already compiled excuctables is the recommended option, as you will simply have to run the excecutable without installing any programming languages. 
+However, if you'd like to use the source code, that is documented as well below.
+
+#### Compiled 
+
+
 1. Grab [the latest release](https://github.com/wolfrust/bannoti/releases/latest).
 2. Unzip the file you just downloaded
 3. Open a terminal window
@@ -31,6 +37,24 @@
 5. Run ```bannoti.py --startup``` to add Bannoti to startup
 
 Step 5 is optional but recommended, because otherwise you will have to start Bannoti manually *every time you log on*, which could get annoying.
+
+
+#### Source
+
+Installing through source is a bit more gritty, but not very hard. 
+
+1. Install [Rust](https://rust-lang.org) and [Python](https://python.org). 
+2. Download Bannoti's [source code](https://github.com/wolfrust/bannoti/releases/latest). 
+3. Unzip the file you just downloaded.
+4. Open a terminal window.
+5. Move into the directory of the files.
+6. Move into assets/notify/src/
+7. Run `rustc -o ../notify.exe`. **The file must be named notify.exe even if you're on linux and it's a linux binary.**
+8. Move back into the root of the project : `cd ../../../`
+
+At this point you can do two things.
+1. Start using Bannoti without compiling bannoti.py : Run `python bannoti.py --startup`, and you're ready.
+2. Compile bannoti.py as well. Please refer to [this guide](https://datatofish.com/executable-pyinstaller/) if you do not know how to compile python files.
 
 ---
 
