@@ -49,7 +49,7 @@ Installing through source is a bit more gritty, but not very hard.
 4. Open a terminal window.
 5. Move into the directory of the files.
 6. Move into assets/notify/src/
-7. Run `rustc -o ../notify.exe`. **The file must be named notify.exe even if you're on linux and it's a linux binary.**
+7. Run `rustc -o ../notify.exe`. Replace `notify.exe` with `notify` if you're on Linux.
 8. Move back into the root of the project : `cd ../../../`
 
 At this point you can do two things.
