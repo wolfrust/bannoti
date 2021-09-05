@@ -119,3 +119,15 @@ Banano 🍌 : `ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf`
 Nano 🍂 : `nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt`
 
 If you'd like to tip me via some other means, please [contact me](https://github.com/wolfrust/wolfrust/#reach-me).
+
+---
+
+### Legal ⚖
+
+Bannoti is licensed under the MIT License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/LICENSE). A short summary is given below.
+
+![Bannoti's License](mit-license-quick.png)
+
+
+
+The tool that *sends the notifications* is made by [hoodie](https://github.com/hoodie), and is distributed under [this license](https://github.com/hoodie/notify-rust/blob/main/LICENSE-Apache).
