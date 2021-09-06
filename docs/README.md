@@ -6,7 +6,7 @@
                      | |_) | (_| | | | | | | | (_) | |_| |
                      |____/ \__,_|_| |_|_| |_|\___/ \__|_|
 
-                                        Desktop notifier for banano (https://banano.cc)
+                                        Desktop notification tool for banano (https://banano.cc)
                                          by Mateo Cruz  (https://github.com/wolfrust)
 
 
