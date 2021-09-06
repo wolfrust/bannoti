@@ -1,4 +1,3 @@
-# Amazing! On to GitHub!
 
 from sys import exit as die
 from sys import argv
@@ -38,7 +37,7 @@ except IndexError:
     show_help()
     die()
 
-if argv[1] in ['--help', '-h', 'help'] or argv[1] not in ['--add', 'run', '--remove', '--gettracked', '--startup']:
+if argv[1] in ['--help', '-h', 'help'] or argv[1] not in ['--add', 'run', '--remove', '--gettracked', '--startup', '--nostartup']:
     show_help()
     die()
 
@@ -60,6 +59,10 @@ def is_negative(number):
 def addToStartup(Name, Data) -> None:
     from os import system
     system(f'REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "{Name}" /t REG_SZ /F /D "{Data}"')
+
+def removeFromStartup(Name) -> None:
+    from os import system
+    system(f'REG DELETE "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "{Name}" /f')
 
 
 if argv[1] == '--add':
@@ -85,6 +88,9 @@ elif argv[1] == '--gettracked':
 elif argv[1] == '--startup':
     from os import getcwd
     addToStartup('Bannoti', f"{getcwd()}/bannoti.py")
+
+elif argv[1] == '--nostartup':
+    removeFromStartup('Bannoti')
 
 
 if argv[1] == 'run':
