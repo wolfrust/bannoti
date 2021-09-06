@@ -34,7 +34,7 @@ However, if you'd like to use the source code, that is documented as well below.
 2. Unzip the file you just downloaded
 3. Open a terminal window
 4. [Move into the directory](https://help.ubuntu.com/community/UsingTheTerminal) in which you placed the files
-5. Run ```bannoti.py --startup``` to add Bannoti to startup
+5. Run ```bannoti.py --yesstartup``` to add Bannoti to startup
 
 Step 5 is optional but recommended, because otherwise you will have to start Bannoti manually *every time you log on*, which could get annoying.
 
@@ -55,7 +55,7 @@ Installing through source is a bit more gritty, but not very hard.
 10. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary we just made.**
 
 At this point you can do two things.
-1. Start using Bannoti without compiling bannoti.py : Run `python bannoti.py --startup`, and you're ready.
+1. Start using Bannoti without compiling bannoti.py : Run `python bannoti.py --yesstartup`, and you're ready.
 2. Compile bannoti.py as well. Please refer to [this guide](https://datatofish.com/executable-pyinstaller/) if you do not know how to compile python files.
 
 ---
@@ -78,7 +78,9 @@ $> bannoti.py --help
     --add : add an address to get notified for
     --remove : stop getting notifications for an address
     --gettracked : get tracked accounts
-    --startup : add program to startup
+    --yesstartup : add program to startup
+    --nostartup : remove program from startup
+
 
     If this is your first time using Bannoti, I recommend you see the README (./README.md).
 
