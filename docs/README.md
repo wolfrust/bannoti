@@ -148,4 +148,4 @@ This project would not have been possible without [bananopy](https://github.com/
 
 ### Contact 📱
 
-You can email me at mateo.xzf@protonmail.ch. Please set the subject line to "Bannoti" (without the quotes).
+You can email me at mateo.xzf@protonmail.ch. 
