@@ -13,7 +13,7 @@
 ```
 
 
-✨You can use Bannoti to recieve notifications for Banano transactions on your computer.
+✨You can use Bannoti to receive notifications for Banano transactions on your computer.
 
 
 ---
@@ -24,7 +24,7 @@
 
 ### Installation
 
-Using already compiled excectables is the recommended option, as you will simply have to run the excecutable without installing any programming languages.
+Using already compiled executables is the recommended option, as you will simply have to run the executable without installing any programming languages.
 However, if you'd like to use the source code, that is documented as well below.
 
 #### Compiled (5m)
