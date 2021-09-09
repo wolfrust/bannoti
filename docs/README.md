@@ -114,7 +114,7 @@ Bannoti is free of any malware and bloatware. I provide binary packages to make 
 
 **Bannoti cannot access your wallet**. It relies on public information to do it's thing. This means **your funds are safe.**
 
-**Bannoti respects your privacy.** It doesn't ask for any confindential information, just addresses. They are stored offline in `assets/track.ini` on your computer.
+**Bannoti respects your privacy.** It doesn't ask for any confidential information, just addresses. They are stored offline in `assets/track.ini` on your computer.
 
 ---
 
