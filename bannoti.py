@@ -13,8 +13,8 @@ def show_help() -> None:
     --add : add an address to get notified for
     --remove : stop getting notifications for an address
     --gettracked : get tracked accounts
-    --yesstartup : add program to startup
-    --nostartup : remove program from startup
+    --yesstartup : add program to startup (windows only)
+    --nostartup : remove program from startup (windows only)
 
     If this is your first time using Bannoti, I recommend you see the README (./README.md).""")
 
