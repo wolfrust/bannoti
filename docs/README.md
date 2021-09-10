@@ -50,7 +50,7 @@ Installing through source is a bit more gritty, but not very hard.
 5. Move into the directory of the files.
 6. Run `pip install -r config/requirements.txt` to install required python modules.
 7. Move into assets/notify/
-8. Run `cargo build`. This will build the binary.
+8. Run `cargo build --release`. This will build the binary.
 9. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows)
 10. Move back into the root of the project : `cd ../../`
 11. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary you just made.**
