@@ -16,7 +16,7 @@ def show_help() -> None:
     --yesstartup : add program to startup (windows only)
     --nostartup : remove program from startup (windows only)
 
-    If this is your first time using Bannoti, I recommend you see the README (./README.md).""")
+    If this is your first time using Bannoti, I recommend you see the README (docs/README.md).""")
 
 print(f"""{Fore.BLUE}
 
