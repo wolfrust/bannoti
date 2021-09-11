@@ -99,7 +99,7 @@ For example : `$> bannoti.py --add`
 
 A small tip would go a long way :).
 
-Banano 🍌 : `ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf`
+Banano 🍌 : `ban_1378hqogtx33j1inek3j97rng1qpr457iucmcetqmioqj1335cm8ea9iiunf`
 
 Nano 🍂 : `nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt`
 
