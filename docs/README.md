@@ -156,7 +156,10 @@ You can email me at mateo.xzf@protonmail.ch.
 ---
 
 ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fwolfrust%2Fbannoti)
+![GitHub Repo stars](https://img.shields.io/github/stars/wolfrust/bannoti?style=social)
+
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wolfrust/bannoti?label=latest%20release&color=blue)
 ![GitHub all releases](https://img.shields.io/github/downloads/wolfrust/bannoti/total?color=9cf)
-![GitHub Repo stars](https://img.shields.io/github/stars/wolfrust/bannoti?style=social)
+
+![Python version](https://img.shields.io/badge/python-3.9-blue)
 
