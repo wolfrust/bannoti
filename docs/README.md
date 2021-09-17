@@ -160,4 +160,5 @@ You can email me at mateo.xzf@protonmail.ch.
 ![GitHub all releases](https://img.shields.io/github/downloads/wolfrust/bannoti/total?color=9cf)
 
 ![Python version](https://img.shields.io/badge/python-3.9-blue)
+![Development Status](https://img.shields.io/badge/development%20status-active-blueviolet)
 
