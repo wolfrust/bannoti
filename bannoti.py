@@ -3,6 +3,7 @@ from sys import exit as die
 from sys import argv
 from colorama import Fore, Style, init
 init()
+import requests
 
 
 def show_help() -> None:
@@ -101,22 +102,35 @@ if argv[1] == 'run':
 
     while True:
 
-        for i in range(len(accounts)):
+        try:
 
-            pending_now = ban.account_balance(accounts[i])['pending']
-            pending_then = balances['balances'][accounts[i]]['pending']
+            for i in range(len(accounts)):
 
-            if ( pending_now != pending_then ):
+                pending_now = ban.account_balance(accounts[i])['pending']
+                pending_then = balances['balances'][accounts[i]]['pending']
 
-                if ( not is_negative(pending_now - pending_then)):
+                if ( pending_now != pending_then ):
 
-                    print(f'Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN at account {Fore.YELLOW}{accounts[i][0:7]}{Style.RESET_ALL}{accounts[i][7:61]}{Fore.GREEN}{accounts[i][60:65]}{Style.RESET_ALL}')
+                    if ( not is_negative(pending_now - pending_then)):
 
-                    if (getOS() == 'Windows'):
-                        exec(r'assets\notify.exe ' + f'"Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
-                    else:
-                        exec(f'assets/notify "Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
+                        print(f'Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN at account {Fore.YELLOW}{accounts[i][0:7]}{Style.RESET_ALL}{accounts[i][7:61]}{Fore.GREEN}{accounts[i][60:65]}{Style.RESET_ALL}')
 
-                balances['balances'][accounts[i]]['pending'] = pending_now
+                        if (getOS() == 'Windows'):
+                            exec(r'assets\notify.exe ' + f'"Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
+                        else:
+                            exec(f'assets/notify "Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
 
-        sleep(5)
+                    balances['balances'][accounts[i]]['pending'] = pending_now
+
+            sleep(5)
+
+        except (requests.exceptions.ConnectionError, requests.exceptions.ConnectionError) :
+            print(f"{Fore.RED}Internet connection lost.. {Style.RESET_ALL}", end="")
+            while True:
+                sleep(5)
+                try:
+                    requests.get('https://google.com')
+                    break
+                except:
+                    pass
+            print(f"{Fore.GREEN} Restored {Style.RESET_ALL}")
