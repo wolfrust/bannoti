@@ -124,7 +124,7 @@ if argv[1] == 'run':
 
             sleep(5)
 
-        except (requests.exceptions.ConnectionError, requests.exceptions.ConnectionError) :
+        except requests.exceptions.ConnectionError:
             print(f"{Fore.RED}Internet connection lost.. {Style.RESET_ALL}", end="")
             while True:
                 sleep(5)
