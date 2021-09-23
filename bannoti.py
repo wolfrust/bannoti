@@ -89,7 +89,7 @@ elif argv[1] == '--gettracked':
 
 elif argv[1] == '--yesstartup':
     from os import getcwd
-    addToStartup('Bannoti', f"{getcwd()}\\bannoti.exe")
+    addToStartup('Bannoti', f"{getcwd()}\\bannoti.exe run")
 
 elif argv[1] == '--nostartup':
     removeFromStartup('Bannoti')
