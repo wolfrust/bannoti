@@ -95,6 +95,22 @@ For example : `$> bannoti.py --add`
 
 ---
 
+### Updating
+
+It would be rather tedious to have to reconfigure settings every time a new version of Bannoti is released. 
+Fortunately, all you have to do is copy over the `track.ini` file to the new assets/ directory.
+
+For example, from `bannoti-v1.1/assets/track.ini` to `bannoti-v1.2/assets/track.ini`.
+
+Bannoti follows [semantic versioning](https://semver.org/), meaning:
+
+- v1.0.0 -> v1.0.1 : copy over track.ini
+- v1.0 -> v1.1 : copy over track.ini
+- v1 -> v2 : welp got to set it up from scratch
+
+
+---
+
 ### Tips 😘
 
 A small tip would go a long way :).
