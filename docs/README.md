@@ -132,6 +132,8 @@ Bannoti is free of any malware and bloatware. I provide binary packages to make 
 
 **Bannoti respects your privacy.** It doesn't ask for any confidential information, just addresses. They are stored offline in `assets/track.ini` on your computer.
 
+Please note that some antivirus programs throw false positives on scanning Bannoti. This happens with all programs made using pyinstaller, which is a highly reputed compiler for python. If you take a look at [this virustotal scan](https://www.virustotal.com/gui/file/8611ee33bdae7a80493f992a5458495bf66f824cec209dc564a103af6ca5bd4b), you'll find that only 9/63 antivirus programs classify Bannoti as malware. If you head into the section on behaviour, you can see that the excecutable does nothing fishy.
+
 ---
 
 ### Legal ⚖
