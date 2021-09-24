@@ -22,7 +22,7 @@
 **For everything below, replace `bannoti.py` with the file in your tree. (`bannoti.exe` on windows and `bannoti` on Linux)**
 
 
-### Installation
+### Installation 🍕
 
 Using already compiled executables is the recommended option, as you will simply have to run the executable without installing any programming languages.
 However, if you'd like to use the source code, that is documented as well below.
@@ -95,7 +95,7 @@ For example : `$> bannoti.py --add`
 
 ---
 
-### Updating
+### Updating 🚀
 
 It would be rather tedious to have to reconfigure settings every time a new version of Bannoti is released. 
 Fortunately, all you have to do is copy over the `track.ini` file to the new assets/ directory.
