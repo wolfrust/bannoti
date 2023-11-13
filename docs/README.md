@@ -166,7 +166,7 @@ This project would not have been possible without [bananopy](https://github.com/
 
 ### Contact 📱
 
-You can email me at mateo.xzf@protonmail.ch.
+You can email me at 901aditya109@gmail.com.
 
 
 ---
