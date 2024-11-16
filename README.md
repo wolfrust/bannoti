@@ -92,25 +92,37 @@ For example : `bannoti.py --add`
 
 ---
 
-#### Contribution (4s)
+
+### Safety 🐙
+
+Bannoti is free of any malware and bloatware. I provide binary packages to make things easier for you, but if you'd rather install through the source code, that's documented as well. You can look at the source code yourself to verify that nothing's sus. In conclusion, **your computer is safe.**
+
+**Bannoti cannot access your wallet**. It relies on public information to do it's thing. This means **your funds are safe.**
+
+**Bannoti respects your privacy.** It doesn't ask for any confindential information, just addresses. They are stored offline in `assets/track.ini` on your computer. 
+
+
+---
+
+### Contribution (4s)
 
 All contributions are welcome. 
 
 
-#### Feature Requests & Bug Reporting (4s) 🐞
+### Feature Requests & Bug Reporting (4s) 🐞
 
 Please use the [issues tab](https://github.com/wolfrust/bannoti/issues) for this, as that provides me with an organized way to look at requests & reports.
 For bug reports, please attach the `bug` label, and for requests please attach the `enhancment` label.
 
 ---
 
-#### Contact 📱
+### Contact 📱
 
 You can contact me using one of the means listed in my [profile](https://github.com/wolfrust/wolfrust/README.md#reach-me).
 
 ---
 
-#### Tips 😘
+### Tips 😘
 
 I'd really appreciate it. Every bit of potassium matters.
 
