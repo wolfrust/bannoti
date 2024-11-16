@@ -16,6 +16,8 @@ def show_help() -> None:
     --gettracked : get tracked accounts
     --yesstartup : add program to startup (windows only)
     --nostartup : remove program from startup (windows only)
+    
+    Use Ctrl+C to exit.
 
     If this is your first time using Bannoti, I recommend you see the README (docs/README.md).""")
 
