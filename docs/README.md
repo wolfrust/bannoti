@@ -149,3 +149,11 @@ This project would not have been possible without [bananopy](https://github.com/
 ### Contact 📱
 
 You can email me at mateo.xzf@protonmail.ch.
+
+
+---
+
+
+![GitHub all releases](https://img.shields.io/github/downloads/wolfrust/bannoti/total?color=9cf)
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fwolfrust%2Fbannoti)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wolfrust/bannoti?label=latest%20release&color=blue)
