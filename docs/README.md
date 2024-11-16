@@ -128,7 +128,7 @@ Bannoti is licensed under the MIT License. You can find it [here](https://github
 
 The tool that *sends the notifications* is called [notify-rust](https://github.com/hoodie/notify-rust), and is distributed under [this license](https://github.com/hoodie/notify-rust/blob/main/LICENSE-Apache).
 
-The tool that allows python to interact with the Banano node is [bananopy](https://github.com/milkyklim/bananopy), and is distributed under [this license](https://github.com/milkyklim/bananopy/blob/master/LICENSE). It is Copyright (c) 2020 milkyklim.
+The tool that allows python to interact with the Banano API is [bananopy](https://github.com/milkyklim/bananopy), and is distributed under [this license](https://github.com/milkyklim/bananopy/blob/master/LICENSE). It is Copyright (c) 2020 milkyklim.
 
 ---
 
@@ -148,4 +148,4 @@ This project would not have been possible without [bananopy](https://github.com/
 
 ### Contact 📱
 
-You can email me at mateo.xzf@protonmail.ch. 
+You can email me at mateo.xzf@protonmail.ch.
