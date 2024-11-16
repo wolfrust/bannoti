@@ -48,11 +48,12 @@ Installing through source is a bit more gritty, but not very hard.
 3. Unzip the file you just downloaded.
 4. Open a terminal window.
 5. Move into the directory of the files.
-6. Move into assets/notify/
-7. Run `cargo build`. This will build the binary.
-8. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows)
-9. Move back into the root of the project : `cd ../../`
-10. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary you just made.**
+6. Run `pip install -r config/requirements.txt` to install required python modules.
+7. Move into assets/notify/
+8. Run `cargo build`. This will build the binary.
+9. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows)
+10. Move back into the root of the project : `cd ../../`
+11. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary you just made.**
 
 At this point you can do two things.
 1. Start using Bannoti without compiling bannoti.py : Run `python bannoti.py --yesstartup`, and you're ready.
@@ -96,7 +97,7 @@ For example : `$> bannoti.py --add`
 
 ### Tips 😘
 
-A small tip would go a long way :). 
+A small tip would go a long way :).
 
 Banano 🍌 : `ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf`
 
@@ -148,5 +149,3 @@ This project would not have been possible without [bananopy](https://github.com/
 ### Contact 📱
 
 You can email me at mateo.xzf@protonmail.ch. Please set the subject line to "Bannoti" (without the quotes).
-
-
