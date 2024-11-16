@@ -138,9 +138,9 @@ Please note that some antivirus programs throw false positives on scanning Banno
 
 ### Legal ⚖
 
-Bannoti is licensed under the MIT License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/docs/LICENSE). A short summary is given below.
+Bannoti is licensed under the BSD 3-Clause "New" or "Revised" License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/docs/LICENSE). A short summary is given below.
 
-![Bannoti's License](mit-license-quick.png)
+![Bannoti's License](bsd-license-quick.png)
 
 
 
