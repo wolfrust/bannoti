@@ -15,6 +15,8 @@
 
 ✨You can use Bannoti to receive notifications for Banano transactions on your computer.
 
+**❗ Bannoti isn't working right now due to a problem with bananopy, a module it relies on. You can download and install as usual, but until the module is fixed you'll get a `NodeException` error. Most unfortunate, but it's out of my control. 🙁**
+
 
 ---
 
