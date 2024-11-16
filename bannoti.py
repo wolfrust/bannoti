@@ -1,5 +1,5 @@
-# Amazing! Core functionality is working great.
-# note : beautify notification
+# Amazing! Core functionality is working great, and the notifications look nice now.
+# note : polish interface & file paths
 
 from bananopy import banano as ban
 from time import sleep
@@ -7,7 +7,15 @@ from datetime import datetime
 import track
 from sys import argv
 from os import system as exec
+from platform import system as getOS
+from colorama import Fore, Style, init
+init()
 
+def is_negative(number):
+    if ((0 + number) > 0):
+        return False
+    else:
+        return True
 
 
 if argv[1] == '--add':
@@ -42,6 +50,11 @@ if argv[1] == 'run':
             pending_now = ban.account_balance(accounts[i])['pending']
             pending_then = balances['balances'][accounts[i]]['pending']
             if ( pending_now != pending_then ):
-                exec(r'notify\target\debug\notify.exe "Recieved ' + str(pending_now - pending_then) +  'BAN" "account = ' + accounts[i] + '"')
+                if ( not is_negative(pending_now - pending_then)):
+                    print(f'Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN at account {Fore.YELLOW}{accounts[i][0:7]}{Style.RESET_ALL}{accounts[i][7:61]}{Fore.GREEN}{accounts[i][60:65]}{Style.RESET_ALL}')
+                    if (getOS() == 'Windows'):
+                        exec(r'notify\target\debug\notify.exe ' + f'"Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
+                    else:
+                        exec(f'notify/target/debug/notify "Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
                 balances['balances'][accounts[i]]['pending'] = pending_now
         sleep(5)
