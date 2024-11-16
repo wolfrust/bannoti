@@ -7,7 +7,7 @@
                      |____/ \__,_|_| |_|_| |_|\___/ \__|_|
 
                                         Desktop notification tool for banano (https://banano.cc)
-                                         by Neptune (https://github.com/wolfrust)
+                                         by Neptune (https://github.com/clocked07)
 
 
 ```
@@ -30,7 +30,7 @@ However, if you'd like to use the source code, that is documented as well below.
 #### Compiled (5m)
 
 
-1. Grab [the latest release](https://github.com/wolfrust/bannoti/releases/latest).
+1. Grab [the latest release](https://github.com/clocked07/bannoti/releases/latest).
 2. Unzip the file you just downloaded
 3. Open a terminal window
 4. [Move into the directory](https://help.ubuntu.com/community/UsingTheTerminal) in which you placed the files
@@ -44,7 +44,7 @@ Step 5 is optional but recommended, because otherwise you will have to start Ban
 Installing through source is a bit more gritty, but not very hard.
 
 1. Install [Rust](https://rust-lang.org) and [Python (3)](https://python.org).
-2. Download Bannoti's [source code](https://github.com/wolfrust/bannoti/releases/latest).
+2. Download Bannoti's [source code](https://github.com/clocked07/bannoti/releases/latest).
 3. Unzip the file you just downloaded.
 4. Open a terminal window.
 5. Move into the directory of the files.
@@ -106,7 +106,7 @@ Bannoti follows [semantic versioning](https://semver.org/), meaning:
 
 - v1.0.0 -> v1.0.1 : copy over track.ini
 - v1.0 -> v1.1 : copy over track.ini
-- v1 -> v2 : welp got to set it up from scratch
+- v1 -> v2 : got to set it up from scratch
 
 
 ---
@@ -119,7 +119,7 @@ Banano 🍌 : `ban_1378hqogtx33j1inek3j97rng1qpr457iucmcetqmioqj1335cm8ea9iiunf`
 
 Nano 🍂 : `nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt`
 
-If you'd like to tip me via some other means, please [contact me](https://github.com/wolfrust/wolfrust/#reach-me).
+If you'd like to tip me via some other means, please [contact me](mailto:901aditya109@gmail.com).
 
 ---
 
@@ -138,7 +138,7 @@ Please note that some antivirus programs throw false positives on scanning Banno
 
 ### Legal ⚖
 
-Bannoti is licensed under the BSD 3-Clause "New" or "Revised" License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/docs/LICENSE). A short summary is given below.
+Bannoti is licensed under the BSD 3-Clause "New" or "Revised" License. You can find it [here](https://github.com/clocked07/bannoti/blob/main/docs/LICENSE). A short summary is given below.
 
 ![Bannoti's License](bsd-license-quick.png)
 
@@ -152,7 +152,7 @@ The tool that allows python to interact with the Banano API is [bananopy](https:
 
 ### Feature Requests & Bug Reporting  🐞
 
-Please use the [issues tab](https://github.com/wolfrust/bannoti/issues) for this, as that provides me with an organized way to look at requests & reports.
+Please use the [issues tab](https://github.com/clocked07/bannoti/issues) for this, as that provides me with an organized way to look at requests & reports.
 For bug reports, please attach the `bug` label, and for feature requests please attach the `enhancment` label.
 
 ---
@@ -171,11 +171,11 @@ You can email me at 901aditya109@gmail.com.
 
 ---
 
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fwolfrust%2Fbannoti)
-![GitHub Repo stars](https://img.shields.io/github/stars/wolfrust/bannoti?style=social)
+![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fclocked07%2Fbannoti)
+![GitHub Repo stars](https://img.shields.io/github/stars/clocked07/bannoti?style=social)
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wolfrust/bannoti?label=latest%20release&color=blue)
-![GitHub all releases](https://img.shields.io/github/downloads/wolfrust/bannoti/total?color=9cf)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/clocked07/bannoti?label=latest%20release&color=blue)
+![GitHub all releases](https://img.shields.io/github/downloads/clocked07/bannoti/total?color=9cf)
 
 ![Python version](https://img.shields.io/badge/python-3.9-blue)
 ![Development Status](https://img.shields.io/badge/development%20status-active-blueviolet)
