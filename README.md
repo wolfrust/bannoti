@@ -94,12 +94,13 @@ For example : `bannoti.py --add`
 
 #### Contribution (4s)
 
-All contributions are welcome.
+All contributions are welcome. 
 
 
 #### Feature Requests & Bug Reporting (4s) 🐞
 
-GitHub provides the [issues tab](https://github.com/wolfrust/bannoti/issues) for this. 
+Please use the [issues tab](https://github.com/wolfrust/bannoti/issues) for this, as that provides me with an organized way to look at requests & reports.
+For bug reports, please attach the `bug` label, and for requests please attach the `enhancment` label.
 
 ---
 
@@ -113,7 +114,8 @@ You can contact me using one of the means listed in my [profile](https://github.
 
 I'd really appreciate it. Every bit of potassium matters.
 
-Banano : ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf
-Nano : nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt
+Banano 🍌 : `ban_3qhzq3kxhe95hdq3q6uzmqg7ewp5js8ebcoxq1httmguzf7s5bb3a9894waf`
+
+Nano 🍂 : `nano_1rhj7y5hkm5sx5rcn3p5tgsgyij1qwty1ja66197yacw3sjwoob3yyc76jbt`
 
 If you'd like to tip me via some other means, please [contact me](https://github.com/wolfrust/wolfrust/#reach-me).
