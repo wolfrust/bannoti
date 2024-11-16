@@ -43,14 +43,16 @@ Step 5 is optional but recommended, because otherwise you will have to start Ban
 
 Installing through source is a bit more gritty, but not very hard. 
 
-1. Install [Rust](https://rust-lang.org) and [Python](https://python.org). 
+1. Install [Rust](https://rust-lang.org) and [Python (3)](https://python.org). 
 2. Download Bannoti's [source code](https://github.com/wolfrust/bannoti/releases/latest). 
 3. Unzip the file you just downloaded.
 4. Open a terminal window.
 5. Move into the directory of the files.
-6. Move into assets/notify/src/
-7. Run `rustc -o ../notify.exe`. Replace `notify.exe` with `notify` if you're on Linux.
-8. Move back into the root of the project : `cd ../../../`
+6. Move into assets/notify/
+7. Run `cargo build`. This will build the binary.
+8. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows) 
+9. Move back into the root of the project : `cd ../../`
+10. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary we just made.**
 
 At this point you can do two things.
 1. Start using Bannoti without compiling bannoti.py : Run `python bannoti.py --startup`, and you're ready.
