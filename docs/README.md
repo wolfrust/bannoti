@@ -83,7 +83,7 @@ $> bannoti.py --help
     --nostartup : remove program from startup (windows only)
 
 
-    If this is your first time using Bannoti, I recommend you see the README (./README.md).
+    If this is your first time using Bannoti, I recommend you see the README (docs/README.md).
 
 
 ```
