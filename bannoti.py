@@ -102,14 +102,21 @@ if argv[1] == 'run':
     while True:
 
         for i in range(len(accounts)):
+
             pending_now = ban.account_balance(accounts[i])['pending']
             pending_then = balances['balances'][accounts[i]]['pending']
+
             if ( pending_now != pending_then ):
+
                 if ( not is_negative(pending_now - pending_then)):
+
                     print(f'Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN at account {Fore.YELLOW}{accounts[i][0:7]}{Style.RESET_ALL}{accounts[i][7:61]}{Fore.GREEN}{accounts[i][60:65]}{Style.RESET_ALL}')
+
                     if (getOS() == 'Windows'):
                         exec(r'assets\notify.exe ' + f'"Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
                     else:
                         exec(f'assets/notify "Recieved {str(ban.ban_from_raw(str(pending_now - pending_then)))[0:4]}BAN" "at account {accounts[i]}"')
+
                 balances['balances'][accounts[i]]['pending'] = pending_now
+
         sleep(5)
