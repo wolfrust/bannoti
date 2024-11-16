@@ -144,7 +144,7 @@ This project would not have been possible without [bananopy](https://github.com/
 
 ### Legal ⚖
 
-Bannoti is licensed under the MIT License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/LICENSE). A short summary is given below.
+Bannoti is licensed under the MIT License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/docs/LICENSE). A short summary is given below.
 
 ![Bannoti's License](mit-license-quick.png)
 
