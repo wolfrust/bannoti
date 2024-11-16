@@ -13,7 +13,7 @@
 ```
 
 
-✨You can use Bannoti to recieve notifications for Banano transactions on your computer. 
+✨You can use Bannoti to recieve notifications for Banano transactions on your computer.
 
 
 ---
@@ -24,10 +24,10 @@
 
 ### Installation
 
-Using already compiled excuctables is the recommended option, as you will simply have to run the excecutable without installing any programming languages. 
+Using already compiled excuctables is the recommended option, as you will simply have to run the excecutable without installing any programming languages.
 However, if you'd like to use the source code, that is documented as well below.
 
-#### Compiled 
+#### Compiled
 
 
 1. Grab [the latest release](https://github.com/wolfrust/bannoti/releases/latest).
@@ -41,16 +41,16 @@ Step 5 is optional but recommended, because otherwise you will have to start Ban
 
 #### Source
 
-Installing through source is a bit more gritty, but not very hard. 
+Installing through source is a bit more gritty, but not very hard.
 
-1. Install [Rust](https://rust-lang.org) and [Python (3)](https://python.org). 
-2. Download Bannoti's [source code](https://github.com/wolfrust/bannoti/releases/latest). 
+1. Install [Rust](https://rust-lang.org) and [Python (3)](https://python.org).
+2. Download Bannoti's [source code](https://github.com/wolfrust/bannoti/releases/latest).
 3. Unzip the file you just downloaded.
 4. Open a terminal window.
 5. Move into the directory of the files.
 6. Move into assets/notify/
 7. Run `cargo build`. This will build the binary.
-8. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows) 
+8. Run `mv target/debug/notify ..` (Linux) or `move target\debug\notify.exe ..` (Windows)
 9. Move back into the root of the project : `cd ../../`
 10. Delete the assets/notify/ directory : `rm -rf assets/notify/`. **Make sure you type this out carefully, because you don't want to end up deleting the binary we just made.**
 
@@ -99,14 +99,14 @@ Bannoti is free of any malware and bloatware. I provide binary packages to make 
 
 **Bannoti cannot access your wallet**. It relies on public information to do it's thing. This means **your funds are safe.**
 
-**Bannoti respects your privacy.** It doesn't ask for any confindential information, just addresses. They are stored offline in `assets/track.ini` on your computer. 
+**Bannoti respects your privacy.** It doesn't ask for any confindential information, just addresses. They are stored offline in `assets/track.ini` on your computer.
 
 
 ---
 
 ### Contribution (4s)
 
-All contributions are welcome. 
+All contributions are welcome.
 
 
 ### Feature Requests & Bug Reporting (4s) 🐞
@@ -134,6 +134,12 @@ If you'd like to tip me via some other means, please [contact me](https://github
 
 ---
 
+### Credits
+
+This project would not have been possible without [bananopy](https://github.com/milkyklim/bananopy) by @milkyklim, and [notify-rust](https://github.com/hoodie/notify-rust) by @hoodie.
+
+---
+
 ### Legal ⚖
 
 Bannoti is licensed under the MIT License. You can find it [here](https://github.com/wolfrust/bannoti/blob/main/LICENSE). A short summary is given below.
@@ -142,4 +148,6 @@ Bannoti is licensed under the MIT License. You can find it [here](https://github
 
 
 
-The tool that *sends the notifications* is made by [hoodie](https://github.com/hoodie), and is distributed under [this license](https://github.com/hoodie/notify-rust/blob/main/LICENSE-Apache).
+The tool that *sends the notifications* is called [notify-rust](https://github.com/hoodie/notify-rust), and is distributed under [this license](https://github.com/hoodie/notify-rust/blob/main/LICENSE-Apache).
+
+The tool that allows python to interact with the Banano node is [bananopy](https://github.com/milkyklim/bananopy), and is distributed under [this license](https://github.com/milkyklim/bananopy/blob/master/LICENSE). It is Copyright (c) 2020 milkyklim.
