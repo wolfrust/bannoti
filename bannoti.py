@@ -26,7 +26,7 @@ print(f"""{Fore.BLUE}
                      | |_) | (_| | | | | | | | (_) | |_| |
                      |____/ \__,_|_| |_|_| |_|\___/ \__|_|
 
-                                        {Fore.YELLOW}Desktop notifier for banano{Style.RESET_ALL} ({Fore.YELLOW}https://banano.cc{Style.RESET_ALL})
+                                        {Fore.YELLOW}Desktop notification tool for banano{Style.RESET_ALL} ({Fore.YELLOW}https://banano.cc{Style.RESET_ALL})
                                         {Fore.YELLOW} by Mateo Cruz {Style.RESET_ALL} ({Fore.YELLOW}https://github.com/wolfrust{Style.RESET_ALL})
 
 
