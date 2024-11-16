@@ -13,7 +13,8 @@ def show_help() -> None:
     --add : add an address to get notified for
     --remove : stop getting notifications for an address
     --gettracked : get tracked accounts
-    --startup : add program to startup
+    --yesstartup : add program to startup
+    --nostartup : remove program from startup
 
     If this is your first time using Bannoti, I recommend you see the README (./README.md).""")
 
@@ -37,7 +38,7 @@ except IndexError:
     show_help()
     die()
 
-if argv[1] in ['--help', '-h', 'help'] or argv[1] not in ['--add', 'run', '--remove', '--gettracked', '--startup', '--nostartup']:
+if argv[1] in ['--help', '-h', 'help'] or argv[1] not in ['--add', 'run', '--remove', '--gettracked', '--yesstartup', '--nostartup']:
     show_help()
     die()
 
@@ -85,7 +86,7 @@ elif argv[1] == '--remove':
 elif argv[1] == '--gettracked':
     print(track.get_accounts())
 
-elif argv[1] == '--startup':
+elif argv[1] == '--yesstartup':
     from os import getcwd
     addToStartup('Bannoti', f"{getcwd()}/bannoti.py")
 
