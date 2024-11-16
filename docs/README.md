@@ -7,7 +7,7 @@
                      |____/ \__,_|_| |_|_| |_|\___/ \__|_|
 
                                         Desktop notification tool for banano (https://banano.cc)
-                                         by Mateo Cruz  (https://github.com/wolfrust)
+                                         by Neptune (https://github.com/wolfrust)
 
 
 ```
