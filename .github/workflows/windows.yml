@@ -3,7 +3,7 @@ name: WinCompile
 on: 
   push:
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   build:
