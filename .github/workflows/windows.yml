@@ -3,7 +3,7 @@ name: WinCompile
 on: 
   push:
     tags:
-      - '*'
+      - 'v*'
 
 jobs:
   build:
@@ -11,20 +11,25 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    
     - name: Checkout repository
-    - uses: actions/checkout@v1
+      uses: actions/checkout@v1
+      
     - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
+        
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install pyinstaller
+        
     - name: build with pyinstaller
     # Todo : add code to build the entire zip package here
       run: |
         pyinstaller --onefile bannoti.py
+        
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -35,6 +40,7 @@ jobs:
         release_name: Release ${{ github.ref }}
         draft: false
         prerelease: false
+        
     - name: Upload Release Asset
       id: upload-release-asset 
       uses: actions/upload-release-asset@v1
