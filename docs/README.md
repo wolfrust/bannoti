@@ -161,4 +161,5 @@ You can email me at mateo.xzf@protonmail.ch.
 
 ![Python version](https://img.shields.io/badge/python-3.9-blue)
 ![Development Status](https://img.shields.io/badge/development%20status-active-blueviolet)
+![Versioning Type](https://img.shields.io/badge/versioning-semantic-ff69b4)
 
