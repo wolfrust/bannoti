@@ -30,7 +30,7 @@ print(f"""{Fore.BLUE}
                      |____/ \__,_|_| |_|_| |_|\___/ \__|_|
 
                                         {Fore.YELLOW}Desktop notification tool for banano{Style.RESET_ALL} ({Fore.YELLOW}https://banano.cc{Style.RESET_ALL})
-                                        {Fore.YELLOW} by Neptune {Style.RESET_ALL} ({Fore.YELLOW}https://github.com/wolfrust{Style.RESET_ALL})
+                                        {Fore.YELLOW} by @clocked07 {Style.RESET_ALL} ({Fore.YELLOW}https://github.com/clocked07{Style.RESET_ALL})
 
 
 """)
